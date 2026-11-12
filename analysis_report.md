@@ -23,10 +23,9 @@ Intensity was the strongest category at 80%.
 
 3. Why the Model Struggled
 
-The biggest problem was that my model uses TF-IDF, which focuses on individual words rather than understanding the meaning and order of an entire sentence. 
-This made sarcasm, negation, and mixed sentiment difficult to recognize.
+My model uses a bag-of-words approach with TF-IDF, meaning it looks at which words appear in reviews and how frequently they occur. It does not understand the order of words or the full meaning behind a sentence.
 
-For example, the phrases "good" and "not good" contain similar words, but have very different meanings. The model does not fully understand that difference.
+The biggest problem was that this made sarcasm, negation, and mixed sentiment difficult to recognize. For example, the phrases "good" and "not good" contain similar words but have very different meanings. The model does not fully understand that difference.
 
 
 4. How I Would Improve the Model
