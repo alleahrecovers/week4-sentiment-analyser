@@ -26,7 +26,7 @@ challenge_reviews = [
 
     # 3.3 Mixed sentiment
     ("Beautiful cinematography, but the story was terrible.", "negative", "Mixed"),
-    ("The acting was excellent, and the ending was wonderful.", "negative", "Mixed"),
+    ("The acting was excellent, but the ending was disappointing.", "negative", "Mixed"),
     ("I loved the characters, but the dialogue was awful.", "negative", "Mixed"),
     ("The movie started slowly but ended beautifully.", "positive", "Mixed"),
     ("Great music and visuals, but a very boring plot.", "negative", "Mixed"),
